@@ -1,0 +1,42 @@
+.mySlides {
+	display:none;
+	border:white 3px solid;}
+
+body{
+	background-color:black;
+	color:white;
+}
+
+h1{
+	text-decoration:underline;
+	color:white;
+	font:italic;
+}
+
+h2{
+	color:white;
+	text-align:center;
+}
+
+img{
+	border:white 3px solid;
+}
+
+table{
+	border:white 3px solid;
+	margin-left:200px;
+}
+
+td{
+	padding:10px;
+	text-align:center;
+}
+
+.wrapper {
+    text-align: right;
+	margin-right:20px;
+}
+
+.w3-center{
+	text-align:c;
+}

@@ -1,0 +1,27 @@
+body{
+font-family:tahoma,geneva,sans-serif;
+color:#fff;
+background-size:cover;
+}
+
+.signin{
+	background:rgba(44,62,80,0.7);
+	padding:40px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:400px;
+	margin-left:180px;
+}
+form{
+	width:240px;
+	text-align:center;
+}
+input[type=text]{
+	width:240px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #fff;
+	font-family:'Play',sans-serif;
+}

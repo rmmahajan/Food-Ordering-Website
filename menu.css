@@ -1,0 +1,62 @@
+.mySlides {
+	display:none;
+	border:white 3px solid;
+	border-radius:5%;
+}
+
+body{
+	background-image:url('image2.jpg');
+	color:white;
+}
+
+h1{
+	color:white;
+	font:italic;
+	font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+h2{
+	color:white;
+	text-align:center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+img{
+	border:white 3px solid;
+	border-radius:50%;
+}
+
+table{
+	margin-left:200px;
+	font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+td{
+	padding:10px;
+	text-align:center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+.wrapper {
+    text-align: right;
+	margin-right:20px;
+	font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+.w3-center{
+	text-align:center;
+	font-family:Comic Sans MS, cursive, sans-serif;
+}
+
+.bt{
+	display: inline-block;
+	padding: 10px 14px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	border-radius: 4px;
+	cursor: pointer;
+}

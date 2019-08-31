@@ -1,0 +1,44 @@
+<html>
+<head>
+	<link rel="stylesheet" href="stl.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body style="background-image:url('image2.jpg');">
+	<div class="wrapper" style="margin-top:200px;">
+		<div class="payment">
+			<div class="payment-logo" style="background-color:#1E90FF;">
+				<p>A</p>
+			</div>
+		 <h2>Address</h2>
+		 <div class="form">
+			
+			<label class="label">Full Name:</label>
+				<input type="text" class="input" name="card_holder" placeholder="Full Name"><br><br>
+			<label class="label">Contact No.:</label>
+				<input type="text" class="input" name="card_holder" placeholder="Contact No."><br><br>
+			<label class="label">Address:</label>
+				<textarea  rows="8" cols="38" class="input" name="card_holder" placeholder="Address"></textarea><br><br>
+			<div class="btn" style="background-color:#1E90FF;">
+			
+				<button style="color:white;background-color:#1E90FF;margin:0px;border:0px;cursor:pointer;" onclick="fun()">Submit</button>
+			</div>
+			<div class="btn" style="background-color:#1E90FF;">
+			
+				<button style="color:white;background-color:#1E90FF;margin:0px;border:0px;cursor:pointer;"><a href="main_pg.html" style="color:white;text-decoration:none;">Proceed to Home Page</a></button>
+			</div>
+			
+		 </div>
+	    </div>
+	</div>
+	
+	<script  src="http://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	<script>
+		function fun(){
+		alert("Your details are submitted");
+		}
+		</script>
+  </body>
+  </html>
+	
